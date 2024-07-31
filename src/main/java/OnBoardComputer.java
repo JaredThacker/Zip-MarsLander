@@ -19,4 +19,22 @@ public class OnBoardComputer implements BurnStream {
         return burn;
     }
 
+//    @Override
+//    public int getNextBurn(DescentEvent status){
+//        int burn = 0;
+//
+//        if (status.Altitude > 1){
+//            int acceleration = (status.getVelocity() * status.getVelocity()) / (2 * status.getAltitude());
+//            burn = acceleration + 100;
+//            if (burn > 200){
+//                burn = 200;
+//            }
+//
+//        } else {
+//            burn = 100;
+//        }
+//
+//        return burn;
+//    }
+
 }
